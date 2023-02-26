@@ -1,0 +1,14 @@
+[
+  {
+    "WorkflowName": "UserInputWorkflow",
+    "Rules": [
+      {
+        "RuleName": "CheckNestedSimpleProp",
+        "ErrorMessage": "Value值不是second.",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "user.UserId==1 && items[0].Value=\"second\" "
+      }
+    ]
+  }
+]
